@@ -1,0 +1,69 @@
+/* nav bar */
+.navbar{
+    position: relative;
+    background-color: #71B1E7 !important;
+}
+/* carousel */
+.carousel-caption{
+    background-color: rgba(151, 194, 224,.4);
+    border-radius: 20px;
+    
+    transition: .3s ease;
+    bottom: 3rem;
+}
+.carousel-caption:hover{
+    background-color: rgba(48, 97, 232,.4);
+   
+}
+.carousel-indicators button{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background-color: #71B1E7 !important;
+
+}
+.btn{
+
+    transition: ease  .7s;
+  
+}
+.btn:hover{
+
+    background-color: crimson;
+    border-radius: 20px;
+}
+
+/* caonvas */
+.affcoanvas-img{
+    width: 250px;
+    height: 300px;
+}
+.affcoanvas-img:hover{
+    transform: skew(-5deg);
+    transition: ease .2s;
+}
+/* product */
+.pro{
+    border-bottom: crimson 4px solid;
+}
+.btn-primary{
+    background-color: #71B1E7;
+    transition: ease  .7s;
+    border: #71B1E7 4px solid !important;
+
+}
+.btn-primary:hover{
+    background-color: crimson;
+    border-radius: 20px;
+}
+.blue{
+    cursor: pointer;
+    color: #71B1E7;
+    transition: ease  .7s;
+
+}
+.blue:hover{
+      color: crimson;
+
+
+}
